@@ -73,7 +73,7 @@ describe "Authentication" do
               click_button "Sign in"
             end
 
-            it "should render the defaulat (profile) page" do
+            it "should render the default (profile) page" do
               page.should have_selector('title', text: user.name)
             end
           end
